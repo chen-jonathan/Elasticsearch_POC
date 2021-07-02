@@ -4,6 +4,7 @@
 Elasticsearch POC for IT Systems Assistant summer role with LRC.
 
 Followed the tutorial [here](https://www.digitalocean.com/community/tutorials/how-to-build-a-real-time-search-engine-with-node-vue-and-elasticsearch) by Ogundipe Samuel Ayo
+
 Stack: Elasticsearch, Node.js, Express.js, Vue.js, Axios.js
 
 Simple search engine web application where user can search for cities in the world.

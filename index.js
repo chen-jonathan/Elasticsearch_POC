@@ -38,13 +38,20 @@ app.get('/search', function(request, response) {
     client.search({
         index: 'scotch.io-tutorial',
         body: body
-    }).then(results => {                 
+    }).then(results => {
         response.send(results.body.hits.hits); 
     }).catch(error => {
         console.log(error)
         response.send([])
     });
 })
+
+// Second route for client side Elasticsearch queries
+app.get('/v2', function(request, response){
+    response.sendFile('template2.html', {
+       root: path.join( __dirname, 'views' )
+     });
+  })
 
 app.listen(app.get('port'), function() {
     console.log("Express server listening on port "+ app.get('port'));

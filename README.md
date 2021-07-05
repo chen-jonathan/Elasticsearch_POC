@@ -14,4 +14,5 @@ To start Node.js server:
 ```
 node index.js
 ```
+**Note**: Make sure Elasticsearch is running on your machine while running this web application
 Navigate to http://localhost:3001 for the server-side querying and http://localhost:3001/v2 for client-side querying

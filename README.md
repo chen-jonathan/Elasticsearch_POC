@@ -8,3 +8,10 @@ Followed the tutorial [here](https://www.digitalocean.com/community/tutorials/ho
 Stack: Elasticsearch, Node.js, Express.js, Vue.js, Axios.js
 
 Simple search engine web application where user can search for cities in the world.
+
+# Running Web Application
+To start Node.js server:
+```
+node index.js
+```
+Navigate to http://localhost:3001 for the server-side querying and http://localhost:3001/v2 for client-side querying

@@ -10,6 +10,10 @@ Stack: Elasticsearch, Node.js, Express.js, Vue.js, Axios.js
 Simple search engine web application where user can search for cities in the world.
 
 # Running Web Application
+Install correct dependencies:
+```
+npm install
+```
 To start Node.js server:
 ```
 node index.js
